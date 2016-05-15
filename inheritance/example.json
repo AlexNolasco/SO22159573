@@ -1,0 +1,32 @@
+[
+	{
+	  "gameEventModelType": "GameTouchEventModel",
+		"point": {"x":1, "y":2},
+		"timeStamp": "1234"
+	},
+	{
+	   "gameEventModelType": "GameFooEventModel",
+       "timeStamp": "1111",
+       "name": "I am foo 1"
+	},
+	{
+	   "gameEventModelType": "GameFooEventModel",
+       "timeStamp": "1112",
+       "name": "I am foo 2"
+	},
+	{
+	   "gameEventModelType": "GameFooEventModel",
+       "timeStamp": "1113",
+       "name": "I am foo 3"
+	},
+	{
+	   "gameEventModelType": "GameFooEventModel",
+       "timeStamp": "1113",
+       "name": "I am foo 4"
+	},
+    {
+	  "gameEventModelType": "GameTouchEventModel",
+		"point": {"x":100, "y":2200},
+		"timeStamp": "1234"
+	}
+]

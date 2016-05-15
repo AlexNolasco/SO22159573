@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56ACDE511CE7AD5D00E43AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE501CE7AD5D00E43AB3 /* main.m */; };
+		56ACDE541CE7AD5D00E43AB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE531CE7AD5D00E43AB3 /* AppDelegate.m */; };
+		56ACDE5A1CE7AD5E00E43AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ACDE581CE7AD5E00E43AB3 /* Main.storyboard */; };
+		56ACDE5C1CE7AD5E00E43AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ACDE5B1CE7AD5E00E43AB3 /* Assets.xcassets */; };
+		56ACDE5F1CE7AD5E00E43AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ACDE5D1CE7AD5E00E43AB3 /* LaunchScreen.storyboard */; };
+		56ACDE7E1CE7ADFC00E43AB3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56ACDE691CE7ADFC00E43AB3 /* Info.plist */; };
+		56ACDE7F1CE7ADFC00E43AB3 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE6C1CE7ADFC00E43AB3 /* JSONModel.m */; };
+		56ACDE801CE7ADFC00E43AB3 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE6E1CE7ADFC00E43AB3 /* JSONModelClassProperty.m */; };
+		56ACDE811CE7ADFC00E43AB3 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE701CE7ADFC00E43AB3 /* JSONModelError.m */; };
+		56ACDE821CE7ADFC00E43AB3 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE741CE7ADFC00E43AB3 /* JSONAPI.m */; };
+		56ACDE831CE7ADFC00E43AB3 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE761CE7ADFC00E43AB3 /* JSONHTTPClient.m */; };
+		56ACDE841CE7ADFC00E43AB3 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE781CE7ADFC00E43AB3 /* JSONModel+networking.m */; };
+		56ACDE851CE7ADFC00E43AB3 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE7B1CE7ADFC00E43AB3 /* JSONKeyMapper.m */; };
+		56ACDE861CE7ADFC00E43AB3 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE7D1CE7ADFC00E43AB3 /* JSONValueTransformer.m */; };
+		56ACDE921CE7AFA900E43AB3 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 56ACDE911CE7AFA900E43AB3 /* example.json */; };
+		56ACDE971CE7B67C00E43AB3 /* SWGObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE941CE7B67C00E43AB3 /* SWGObject.m */; };
+		56ACDE981CE7B67C00E43AB3 /* SWGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE961CE7B67C00E43AB3 /* SWGPoint.m */; };
+		56ACDE9B1CE7B69F00E43AB3 /* SWGGameEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE9A1CE7B69F00E43AB3 /* SWGGameEventModel.m */; };
+		56ACDEA01CE7B6AE00E43AB3 /* SWGGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE9D1CE7B6AE00E43AB3 /* SWGGameModel.m */; };
+		56ACDEA11CE7B6AE00E43AB3 /* SWGGameTouchEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDE9F1CE7B6AE00E43AB3 /* SWGGameTouchEventModel.m */; };
+		56ACDEA41CE7BE1900E43AB3 /* SWGGameEventModel+Polymorphism.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDEA31CE7BE1900E43AB3 /* SWGGameEventModel+Polymorphism.m */; };
+		56ACDEA71CE7DE1700E43AB3 /* SWGGameFooEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACDEA61CE7DE1700E43AB3 /* SWGGameFooEventModel.m */; };
+		56E081101CE7ED82006976B6 /* GameTouchViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56E0810F1CE7ED82006976B6 /* GameTouchViewCell.xib */; };
+		56E081121CE7ED99006976B6 /* GameFooViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56E081111CE7ED99006976B6 /* GameFooViewCell.xib */; };
+		56E081161CE7EF0A006976B6 /* GameTouchViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E081151CE7EF0A006976B6 /* GameTouchViewCell.m */; };
+		56E081191CE7F01E006976B6 /* GameFooViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E081181CE7F01E006976B6 /* GameFooViewCell.m */; };
+		56E0811C1CE7F1D3006976B6 /* SampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E0811B1CE7F1D3006976B6 /* SampleTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56ACDE4C1CE7AD5D00E43AB3 /* inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inheritance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56ACDE501CE7AD5D00E43AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56ACDE521CE7AD5D00E43AB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		56ACDE531CE7AD5D00E43AB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		56ACDE591CE7AD5E00E43AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56ACDE5B1CE7AD5E00E43AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56ACDE5E1CE7AD5E00E43AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56ACDE601CE7AD5E00E43AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56ACDE691CE7ADFC00E43AB3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56ACDE6B1CE7ADFC00E43AB3 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		56ACDE6C1CE7ADFC00E43AB3 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		56ACDE6D1CE7ADFC00E43AB3 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		56ACDE6E1CE7ADFC00E43AB3 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		56ACDE6F1CE7ADFC00E43AB3 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		56ACDE701CE7ADFC00E43AB3 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		56ACDE711CE7ADFC00E43AB3 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		56ACDE731CE7ADFC00E43AB3 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		56ACDE741CE7ADFC00E43AB3 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		56ACDE751CE7ADFC00E43AB3 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		56ACDE761CE7ADFC00E43AB3 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		56ACDE771CE7ADFC00E43AB3 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		56ACDE781CE7ADFC00E43AB3 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		56ACDE7A1CE7ADFC00E43AB3 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		56ACDE7B1CE7ADFC00E43AB3 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		56ACDE7C1CE7ADFC00E43AB3 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		56ACDE7D1CE7ADFC00E43AB3 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		56ACDE911CE7AFA900E43AB3 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
+		56ACDE931CE7B67C00E43AB3 /* SWGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGObject.h; sourceTree = "<group>"; };
+		56ACDE941CE7B67C00E43AB3 /* SWGObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGObject.m; sourceTree = "<group>"; };
+		56ACDE951CE7B67C00E43AB3 /* SWGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGPoint.h; sourceTree = "<group>"; };
+		56ACDE961CE7B67C00E43AB3 /* SWGPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGPoint.m; sourceTree = "<group>"; };
+		56ACDE991CE7B69F00E43AB3 /* SWGGameEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGGameEventModel.h; sourceTree = "<group>"; };
+		56ACDE9A1CE7B69F00E43AB3 /* SWGGameEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGGameEventModel.m; sourceTree = "<group>"; };
+		56ACDE9C1CE7B6AE00E43AB3 /* SWGGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGGameModel.h; sourceTree = "<group>"; };
+		56ACDE9D1CE7B6AE00E43AB3 /* SWGGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGGameModel.m; sourceTree = "<group>"; };
+		56ACDE9E1CE7B6AE00E43AB3 /* SWGGameTouchEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGGameTouchEventModel.h; sourceTree = "<group>"; };
+		56ACDE9F1CE7B6AE00E43AB3 /* SWGGameTouchEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGGameTouchEventModel.m; sourceTree = "<group>"; };
+		56ACDEA21CE7BE1900E43AB3 /* SWGGameEventModel+Polymorphism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SWGGameEventModel+Polymorphism.h"; sourceTree = "<group>"; };
+		56ACDEA31CE7BE1900E43AB3 /* SWGGameEventModel+Polymorphism.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SWGGameEventModel+Polymorphism.m"; sourceTree = "<group>"; };
+		56ACDEA51CE7DE1700E43AB3 /* SWGGameFooEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGGameFooEventModel.h; sourceTree = "<group>"; };
+		56ACDEA61CE7DE1700E43AB3 /* SWGGameFooEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGGameFooEventModel.m; sourceTree = "<group>"; };
+		56E0810F1CE7ED82006976B6 /* GameTouchViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameTouchViewCell.xib; sourceTree = "<group>"; };
+		56E081111CE7ED99006976B6 /* GameFooViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameFooViewCell.xib; sourceTree = "<group>"; };
+		56E081141CE7EF0A006976B6 /* GameTouchViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTouchViewCell.h; sourceTree = "<group>"; };
+		56E081151CE7EF0A006976B6 /* GameTouchViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTouchViewCell.m; sourceTree = "<group>"; };
+		56E081171CE7F01E006976B6 /* GameFooViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFooViewCell.h; sourceTree = "<group>"; };
+		56E081181CE7F01E006976B6 /* GameFooViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFooViewCell.m; sourceTree = "<group>"; };
+		56E0811A1CE7F1D3006976B6 /* SampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTableViewController.h; sourceTree = "<group>"; };
+		56E0811B1CE7F1D3006976B6 /* SampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56ACDE491CE7AD5D00E43AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56ACDE431CE7AD5D00E43AB3 = {
+			isa = PBXGroup;
+			children = (
+				56ACDE4E1CE7AD5D00E43AB3 /* inheritance */,
+				56ACDE4D1CE7AD5D00E43AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56ACDE4D1CE7AD5D00E43AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE4C1CE7AD5D00E43AB3 /* inheritance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56ACDE4E1CE7AD5D00E43AB3 /* inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE601CE7AD5E00E43AB3 /* Info.plist */,
+				56ACDE911CE7AFA900E43AB3 /* example.json */,
+				56ACDE671CE7ADEE00E43AB3 /* ThirdParty */,
+				56ACDE661CE7AD7E00E43AB3 /* Classes */,
+				56ACDE4F1CE7AD5D00E43AB3 /* Supporting Files */,
+			);
+			path = inheritance;
+			sourceTree = "<group>";
+		};
+		56ACDE4F1CE7AD5D00E43AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE5B1CE7AD5E00E43AB3 /* Assets.xcassets */,
+				56ACDE501CE7AD5D00E43AB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56ACDE661CE7AD7E00E43AB3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				56E081131CE7EE9A006976B6 /* Controllers */,
+				56E0810A1CE7ECFB006976B6 /* Views */,
+				56ACDE871CE7AE6500E43AB3 /* Models */,
+				56ACDE521CE7AD5D00E43AB3 /* AppDelegate.h */,
+				56ACDE531CE7AD5D00E43AB3 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		56ACDE671CE7ADEE00E43AB3 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE681CE7ADFC00E43AB3 /* JSONModel */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		56ACDE681CE7ADFC00E43AB3 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE691CE7ADFC00E43AB3 /* Info.plist */,
+				56ACDE6A1CE7ADFC00E43AB3 /* JSONModel */,
+				56ACDE711CE7ADFC00E43AB3 /* JSONModelLib.h */,
+				56ACDE721CE7ADFC00E43AB3 /* JSONModelNetworking */,
+				56ACDE791CE7ADFC00E43AB3 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		56ACDE6A1CE7ADFC00E43AB3 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE6B1CE7ADFC00E43AB3 /* JSONModel.h */,
+				56ACDE6C1CE7ADFC00E43AB3 /* JSONModel.m */,
+				56ACDE6D1CE7ADFC00E43AB3 /* JSONModelClassProperty.h */,
+				56ACDE6E1CE7ADFC00E43AB3 /* JSONModelClassProperty.m */,
+				56ACDE6F1CE7ADFC00E43AB3 /* JSONModelError.h */,
+				56ACDE701CE7ADFC00E43AB3 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		56ACDE721CE7ADFC00E43AB3 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE731CE7ADFC00E43AB3 /* JSONAPI.h */,
+				56ACDE741CE7ADFC00E43AB3 /* JSONAPI.m */,
+				56ACDE751CE7ADFC00E43AB3 /* JSONHTTPClient.h */,
+				56ACDE761CE7ADFC00E43AB3 /* JSONHTTPClient.m */,
+				56ACDE771CE7ADFC00E43AB3 /* JSONModel+networking.h */,
+				56ACDE781CE7ADFC00E43AB3 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		56ACDE791CE7ADFC00E43AB3 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE7A1CE7ADFC00E43AB3 /* JSONKeyMapper.h */,
+				56ACDE7B1CE7ADFC00E43AB3 /* JSONKeyMapper.m */,
+				56ACDE7C1CE7ADFC00E43AB3 /* JSONValueTransformer.h */,
+				56ACDE7D1CE7ADFC00E43AB3 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		56ACDE871CE7AE6500E43AB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE931CE7B67C00E43AB3 /* SWGObject.h */,
+				56ACDE941CE7B67C00E43AB3 /* SWGObject.m */,
+				56ACDE951CE7B67C00E43AB3 /* SWGPoint.h */,
+				56ACDE961CE7B67C00E43AB3 /* SWGPoint.m */,
+				56ACDEA21CE7BE1900E43AB3 /* SWGGameEventModel+Polymorphism.h */,
+				56ACDEA31CE7BE1900E43AB3 /* SWGGameEventModel+Polymorphism.m */,
+				56ACDE991CE7B69F00E43AB3 /* SWGGameEventModel.h */,
+				56ACDE9A1CE7B69F00E43AB3 /* SWGGameEventModel.m */,
+				56ACDE9E1CE7B6AE00E43AB3 /* SWGGameTouchEventModel.h */,
+				56ACDE9F1CE7B6AE00E43AB3 /* SWGGameTouchEventModel.m */,
+				56ACDEA51CE7DE1700E43AB3 /* SWGGameFooEventModel.h */,
+				56ACDEA61CE7DE1700E43AB3 /* SWGGameFooEventModel.m */,
+				56ACDE9C1CE7B6AE00E43AB3 /* SWGGameModel.h */,
+				56ACDE9D1CE7B6AE00E43AB3 /* SWGGameModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56E0810A1CE7ECFB006976B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56ACDE581CE7AD5E00E43AB3 /* Main.storyboard */,
+				56ACDE5D1CE7AD5E00E43AB3 /* LaunchScreen.storyboard */,
+				56E0810F1CE7ED82006976B6 /* GameTouchViewCell.xib */,
+				56E081111CE7ED99006976B6 /* GameFooViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56E081131CE7EE9A006976B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				56E081171CE7F01E006976B6 /* GameFooViewCell.h */,
+				56E081181CE7F01E006976B6 /* GameFooViewCell.m */,
+				56E081141CE7EF0A006976B6 /* GameTouchViewCell.h */,
+				56E081151CE7EF0A006976B6 /* GameTouchViewCell.m */,
+				56E0811A1CE7F1D3006976B6 /* SampleTableViewController.h */,
+				56E0811B1CE7F1D3006976B6 /* SampleTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56ACDE4B1CE7AD5D00E43AB3 /* inheritance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56ACDE631CE7AD5E00E43AB3 /* Build configuration list for PBXNativeTarget "inheritance" */;
+			buildPhases = (
+				56ACDE481CE7AD5D00E43AB3 /* Sources */,
+				56ACDE491CE7AD5D00E43AB3 /* Frameworks */,
+				56ACDE4A1CE7AD5D00E43AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inheritance;
+			productName = inheritance;
+			productReference = 56ACDE4C1CE7AD5D00E43AB3 /* inheritance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56ACDE441CE7AD5D00E43AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = coladapp.com;
+				TargetAttributes = {
+					56ACDE4B1CE7AD5D00E43AB3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 56ACDE471CE7AD5D00E43AB3 /* Build configuration list for PBXProject "inheritance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56ACDE431CE7AD5D00E43AB3;
+			productRefGroup = 56ACDE4D1CE7AD5D00E43AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56ACDE4B1CE7AD5D00E43AB3 /* inheritance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56ACDE4A1CE7AD5D00E43AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ACDE7E1CE7ADFC00E43AB3 /* Info.plist in Resources */,
+				56E081101CE7ED82006976B6 /* GameTouchViewCell.xib in Resources */,
+				56ACDE921CE7AFA900E43AB3 /* example.json in Resources */,
+				56E081121CE7ED99006976B6 /* GameFooViewCell.xib in Resources */,
+				56ACDE5F1CE7AD5E00E43AB3 /* LaunchScreen.storyboard in Resources */,
+				56ACDE5C1CE7AD5E00E43AB3 /* Assets.xcassets in Resources */,
+				56ACDE5A1CE7AD5E00E43AB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56ACDE481CE7AD5D00E43AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ACDE821CE7ADFC00E43AB3 /* JSONAPI.m in Sources */,
+				56ACDEA01CE7B6AE00E43AB3 /* SWGGameModel.m in Sources */,
+				56ACDE811CE7ADFC00E43AB3 /* JSONModelError.m in Sources */,
+				56E081161CE7EF0A006976B6 /* GameTouchViewCell.m in Sources */,
+				56ACDE9B1CE7B69F00E43AB3 /* SWGGameEventModel.m in Sources */,
+				56ACDEA11CE7B6AE00E43AB3 /* SWGGameTouchEventModel.m in Sources */,
+				56ACDE971CE7B67C00E43AB3 /* SWGObject.m in Sources */,
+				56ACDEA71CE7DE1700E43AB3 /* SWGGameFooEventModel.m in Sources */,
+				56ACDE7F1CE7ADFC00E43AB3 /* JSONModel.m in Sources */,
+				56ACDE851CE7ADFC00E43AB3 /* JSONKeyMapper.m in Sources */,
+				56ACDE841CE7ADFC00E43AB3 /* JSONModel+networking.m in Sources */,
+				56ACDE861CE7ADFC00E43AB3 /* JSONValueTransformer.m in Sources */,
+				56E081191CE7F01E006976B6 /* GameFooViewCell.m in Sources */,
+				56ACDE831CE7ADFC00E43AB3 /* JSONHTTPClient.m in Sources */,
+				56ACDE981CE7B67C00E43AB3 /* SWGPoint.m in Sources */,
+				56ACDE801CE7ADFC00E43AB3 /* JSONModelClassProperty.m in Sources */,
+				56ACDE541CE7AD5D00E43AB3 /* AppDelegate.m in Sources */,
+				56ACDEA41CE7BE1900E43AB3 /* SWGGameEventModel+Polymorphism.m in Sources */,
+				56E0811C1CE7F1D3006976B6 /* SampleTableViewController.m in Sources */,
+				56ACDE511CE7AD5D00E43AB3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56ACDE581CE7AD5E00E43AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56ACDE591CE7AD5E00E43AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		56ACDE5D1CE7AD5E00E43AB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56ACDE5E1CE7AD5E00E43AB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56ACDE611CE7AD5E00E43AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56ACDE621CE7AD5E00E43AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56ACDE641CE7AD5E00E43AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = inheritance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coladapp.com.inheritance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56ACDE651CE7AD5E00E43AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = inheritance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coladapp.com.inheritance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56ACDE471CE7AD5D00E43AB3 /* Build configuration list for PBXProject "inheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56ACDE611CE7AD5E00E43AB3 /* Debug */,
+				56ACDE621CE7AD5E00E43AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56ACDE631CE7AD5E00E43AB3 /* Build configuration list for PBXNativeTarget "inheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56ACDE641CE7AD5E00E43AB3 /* Debug */,
+				56ACDE651CE7AD5E00E43AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56ACDE441CE7AD5D00E43AB3 /* Project object */;
+}
