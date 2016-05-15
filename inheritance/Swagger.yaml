@@ -1,0 +1,80 @@
+# this is an example of the Uber API
+# as a demonstration of an API spec in YAML
+swagger: "2.0"
+info:
+  description: |
+    This is a sample server Petstore server.
+  version: "1.0.0"
+  title: Game information
+  termsOfService: http://helloreverb.com/terms/
+  contact:
+    name: alex.nolasco [@] gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+host: petstore.swagger.io
+basePath: /v2
+schemes:
+  - http
+########################################
+#           Paths                      #
+########################################    
+paths:
+  /events:
+    get:
+      summary: Operator unlocks the application.
+      description: |
+        Sample call
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Success.
+
+definitions:
+  Point:
+    type: object
+    properties:
+      x:
+       type: number
+      y:
+       type: number
+       
+  GameEventModel:
+    type: object
+    discriminator: gameEventModelType
+
+  GameTouchEventModel:
+    type: object
+    description: GameTouchEventModel
+    allOf:
+      - $ref: '#/definitions/GameEventModel'
+      - type: object
+        properties:
+          gameEventModelType:
+            type: string
+          point:
+             $ref: '#/definitions/Point'
+
+  GameFooEventModel:
+    type: object
+    description: GameTouchEventModel
+    allOf:
+      - $ref: '#/definitions/GameEventModel'
+      - type: object
+        properties:
+          gameEventModelType:
+            type: string
+          name:
+             type: string
+             
+  GameModel:
+    type: object
+    properties:
+      id:
+        type: integer
+        format: int64
+      events:
+        type: array
+        items:
+          $ref: '#/definitions/GameEventModel'

@@ -34,6 +34,7 @@
 		56E081161CE7EF0A006976B6 /* GameTouchViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E081151CE7EF0A006976B6 /* GameTouchViewCell.m */; };
 		56E081191CE7F01E006976B6 /* GameFooViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E081181CE7F01E006976B6 /* GameFooViewCell.m */; };
 		56E0811C1CE7F1D3006976B6 /* SampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E0811B1CE7F1D3006976B6 /* SampleTableViewController.m */; };
+		56E0811E1CE815BC006976B6 /* Swagger.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 56E0811D1CE815BC006976B6 /* Swagger.yaml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		56E081181CE7F01E006976B6 /* GameFooViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFooViewCell.m; sourceTree = "<group>"; };
 		56E0811A1CE7F1D3006976B6 /* SampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTableViewController.h; sourceTree = "<group>"; };
 		56E0811B1CE7F1D3006976B6 /* SampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewController.m; sourceTree = "<group>"; };
+		56E0811D1CE815BC006976B6 /* Swagger.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swagger.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				56ACDE601CE7AD5E00E43AB3 /* Info.plist */,
 				56ACDE911CE7AFA900E43AB3 /* example.json */,
+				56E0811D1CE815BC006976B6 /* Swagger.yaml */,
 				56ACDE671CE7ADEE00E43AB3 /* ThirdParty */,
 				56ACDE661CE7AD7E00E43AB3 /* Classes */,
 				56ACDE4F1CE7AD5D00E43AB3 /* Supporting Files */,
@@ -311,6 +314,7 @@
 				56E081101CE7ED82006976B6 /* GameTouchViewCell.xib in Resources */,
 				56ACDE921CE7AFA900E43AB3 /* example.json in Resources */,
 				56E081121CE7ED99006976B6 /* GameFooViewCell.xib in Resources */,
+				56E0811E1CE815BC006976B6 /* Swagger.yaml in Resources */,
 				56ACDE5F1CE7AD5E00E43AB3 /* LaunchScreen.storyboard in Resources */,
 				56ACDE5C1CE7AD5E00E43AB3 /* Assets.xcassets in Resources */,
 				56ACDE5A1CE7AD5E00E43AB3 /* Main.storyboard in Resources */,
